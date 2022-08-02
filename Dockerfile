@@ -1,7 +1,7 @@
 FROM lsiobase/guacgui:latest
 
 # Set Version Information
-ARG BUILD_DATE="15/08/19"
+ARG BUILD_DATE="03/08/22"
 ARG VERSION="5.4.2.76197"
 LABEL build_version="URSim Version: ${VERSION} Build Date: ${BUILD_DATE}"
 LABEL maintainer="Arran Hobson Sayers"
