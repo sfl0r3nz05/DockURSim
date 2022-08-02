@@ -29,7 +29,7 @@ docker run -d \
     -v dockursim:/ursim \
     --privileged \
     --cpus=1 \
-    arranhs/dockursim:latest
+    sflorenz05/ursim:v0.1
 ```
 
 The Universal Robot Interface can now be accessed at http://localhost:8080.
