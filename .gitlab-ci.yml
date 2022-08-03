@@ -4,7 +4,7 @@ stages:
 build:
   stage: build
   tags:
-    - dserv
+    - remedy
   image:
     name: gcr.io/kaniko-project/executor:debug
     entrypoint: [""]
