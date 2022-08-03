@@ -34,9 +34,9 @@ docker run -d \
 
 The Universal Robot Interface can now be accessed at http://localhost:8080.
 
-| Italic             |  Block letters |
+| Italic                   |  Block letters |
 :-------------------------:|:-------------------------:
-![URSIM](./img/ursim.png)|  [URSIM](./img/ursim2.png)
+![URSIM](./img/ursim.png)  |  [URSIM2](./img/ursim2.png)
 
 **Ctrl-Alt-Shft** will open a menu that allows changing input options, as well as controlling the clipboard.
 
