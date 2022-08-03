@@ -34,7 +34,7 @@ docker run -d \
 
 The Universal Robot Interface can now be accessed at http://localhost:8080.
 
-| Italic                   |
+|                          |
 :-------------------------:|
 ![URSIM](./img/ursim.png)  |
 
