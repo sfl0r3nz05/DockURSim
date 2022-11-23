@@ -90,7 +90,7 @@ Para finalizar, rellenamos las señales tal y como se muestra en la imagen:
 
 |                          |
 :-------------------------:|
-![URSIM](./img/EntradasDigitales.png)  |
+![URSIM](./img/EntradasDigitales.PNG)  |
 
 
 Si los puntos de la izquierda no están en verde, significa que tenemos mal puesta la ip del robot y que por lo tanto, no está conectado a las señales.
