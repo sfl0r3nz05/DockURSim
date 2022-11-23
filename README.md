@@ -104,9 +104,9 @@ This container was built in my free time to aid with research work. Please feel 
 
 ![analog specs](./img/analog.png)|
 
-## Robot Program
+## Robot Programs
 
-Moves the arm between the two firs waypoints, when the modbus attacker triggers the if, another waypoint is added to the movement:
+1. Same to moves the arm between the two firs waypoints, when the modbus attacker triggers the if, another waypoint is added to the movement:
 
 ![the robot program](./img/program.png)
 
