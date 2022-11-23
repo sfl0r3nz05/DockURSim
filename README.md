@@ -102,13 +102,13 @@ This container was built in my free time to aid with research work. Please feel 
 
 ## Analog inputs specs
 
-	![analog specs](./img/analog.png)|
+![analog specs](./img/analog.png)|
 
 ## Robot Program
 
 Moves the arm between the two firs waypoints, when the modbus attacker triggers the if, another waypoint is added to the movement:
 
-	![the robot program](./img/program.png)
+![the robot program](./img/program.png)
 
 ## Configurando las entradas digitales
 
