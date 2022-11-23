@@ -74,6 +74,37 @@ This container was built in my free time to aid with research work. Please feel 
 
 **All rights of the offline simulator application belong to [Universal Robots A/S](https://www.universal-robots.com).**
 
+## Operational limits
+
+### Robot Limits
+
+|       Limit           | Normal             |
+| :-------------------: | -------------------|
+|  `Power`              | 300W               |
+|  `Momentum`           | 25.0 kg m/s        |
+|  `Stopping Time`      | 400 ms             |
+|  `Stopping Distance`  | 500 mm             |
+|  `Tool Speed`         | 1500 mm/s          |
+|  `Tool Force`         | 150.0 N            |
+|  `Elbow Speed`        | 1500 mm/s          |
+|  `Elbow Force`        | 150.0 N            |
+
+### Joints
+
+|       Joint           | Position {Min/Max} | Max. Speed |
+| :-------------------: | -------------------|----------- |
+|  `Base`               | [-363:363]º        | 191º/s     |
+|  `Shoulder`           | [-363:363]º        | 191º/s     |
+|  `Elbow`              | [-363:363]º        | 191º/s     |
+|  `Wrist 1`            | [-363:363]º        | 191º/s     |
+|  `Wrist 2`            | [-363:363]º        | 191º/s     |
+|  `Wrist 3`            | [-363:363]º        | 191º/s     |
+
+
+## Robot Program
+
+[the robot program](./img/program.png)
+ moves the arm between the two firs waypoints, when the modbus attacker triggers the if, another waypoint is added to the movement
 ## Configurando las entradas digitales
 
 Primero, accedemos a la interfaz del robot a través de su url: http://localhost:8080
