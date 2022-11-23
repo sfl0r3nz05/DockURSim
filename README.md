@@ -124,8 +124,7 @@ Moves the arm between the two firs waypoints, when the modbus attacker triggers 
 
 6. Fill in the signs as shown in the image below.:
 
-	![URSIM](./img/EntradasDigitales.PNG)  |
+	![URSIM](./img/EntradasDigitales.PNG)
 
 
-Si los puntos de la izquierda no están en verde, significa que tenemos mal puesta la ip del robot y que por lo tanto, no está conectado a las señales.
-
+>**Note:** If the leds on the left are not green, it means that the robot's ip is not connected to the signals.
