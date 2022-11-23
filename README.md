@@ -100,6 +100,9 @@ This container was built in my free time to aid with research work. Please feel 
 |  `Wrist 2`            | [-363:363]º        | 191º/s     |
 |  `Wrist 3`            | [-363:363]º        | 191º/s     |
 
+## Analog inputs specs
+
+[analog specs](./img/analog.png)
 
 ## Robot Program
 
