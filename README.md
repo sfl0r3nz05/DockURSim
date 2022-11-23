@@ -24,4 +24,4 @@ This is a suitable alternative to using the URSim virtual machine image on windo
 
 1. Use this [link](./documentation/digitalinputconfig.md) to see the configurations of digital inputs.
 
-**All rights of the offline simulator application belong to [Universal Robots A/S](https://www.universal-robots.com).**
+>**All rights of the offline simulator application belong to [Universal Robots A/S](https://www.universal-robots.com).**
