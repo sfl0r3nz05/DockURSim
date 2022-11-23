@@ -73,3 +73,25 @@ The volume and port parameters are separated by a colon and indicate `<external>
 This container was built in my free time to aid with research work. Please feel free to open any issues.
 
 **All rights of the offline simulator application belong to [Universal Robots A/S](https://www.universal-robots.com).**
+
+## Configurando las entradas digitales
+
+Primero, accedemos a la interfaz del robot a través de su url: http://localhost:8080
+
+Luego, iniciamos el robot y nos cambiamos al menu Installation que se encuentra en la parte superior.
+
+Una vez allí, accedemos al menu Fieldbus de la izquierda, y seleccionamos Modbus.
+
+En el menu Modbus, añadimos una nueva unidad, pulsando el botón Add Modbus Unit.
+
+Una vez tenemos la unidad, cambiamos la ip 0.0.0.0 por la ip de nuestro robot, y añadimos 3 señales pulsando el botón Add New Signal 3 veces. 
+
+Para finalizar, rellenamos las señales tal y como se muestra en la imagen: 
+
+|                          |
+:-------------------------:|
+![URSIM](./img/EntradasDigitales.png)  |
+
+
+Si los puntos de la izquierda no están en verde, significa que tenemos mal puesta la ip del robot y que por lo tanto, no está conectado a las señales.
+
