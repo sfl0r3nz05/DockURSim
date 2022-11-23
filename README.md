@@ -102,29 +102,29 @@ This container was built in my free time to aid with research work. Please feel 
 
 ## Analog inputs specs
 
-[analog specs](./img/analog.png)
+	![analog specs](./img/analog.png)|
 
 ## Robot Program
 
-[the robot program](./img/program.png)
- moves the arm between the two firs waypoints, when the modbus attacker triggers the if, another waypoint is added to the movement
+Moves the arm between the two firs waypoints, when the modbus attacker triggers the if, another waypoint is added to the movement:
+
+	![the robot program](./img/program.png)
+
 ## Configurando las entradas digitales
 
-Primero, accedemos a la interfaz del robot a través de su url: http://localhost:8080
+1. We access the robot's interface through its url: http://localhost:8080
 
-Luego, iniciamos el robot y nos cambiamos al menu Installation que se encuentra en la parte superior.
+2. Start the robot and switch to the Installation menu at the top of the screen.
 
-Una vez allí, accedemos al menu Fieldbus de la izquierda, y seleccionamos Modbus.
+3. Access the Fieldbus menu on the left and select Modbus.
 
-En el menu Modbus, añadimos una nueva unidad, pulsando el botón Add Modbus Unit.
+4. In the Modbus menu, add a new unit by clicking on the Add Modbus Unit button.
 
-Una vez tenemos la unidad, cambiamos la ip 0.0.0.0 por la ip de nuestro robot, y añadimos 3 señales pulsando el botón Add New Signal 3 veces. 
+5. Once we have the unit, we change the ip 0.0.0.0.0 for the ip of our robot, and we add 3 signals by pressing the Add New Signal button 3 times.
 
-Para finalizar, rellenamos las señales tal y como se muestra en la imagen: 
+6. Fill in the signs as shown in the image below.:
 
-|                          |
-:-------------------------:|
-![URSIM](./img/EntradasDigitales.PNG)  |
+	![URSIM](./img/EntradasDigitales.PNG)  |
 
 
 Si los puntos de la izquierda no están en verde, significa que tenemos mal puesta la ip del robot y que por lo tanto, no está conectado a las señales.
