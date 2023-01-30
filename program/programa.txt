@@ -1,0 +1,10 @@
+ Program
+   Robot Program
+     Loop
+       MoveJ
+         Waypoint_2
+       MoveJ
+         Waypoint_1
+       If read_port_register(7)≟7
+         MoveJ
+           Waypoint_3

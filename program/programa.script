@@ -1,0 +1,42 @@
+def unnamed():
+  set_tool_communication(False, 115200, 0, 1, 1.5, 3.5)
+  set_tool_output_mode(0)
+  set_tool_digital_output_mode(0, 1)
+  set_tool_digital_output_mode(1, 1)
+  set_tool_voltage(0)
+  set_safety_mode_transition_hardness(1)
+  set_tcp(p[0.0,0.0,0.0,0.0,0.0,0.0])
+  set_payload(0.0)
+  set_gravity([0.0, 0.0, 9.82])
+  set_standard_analog_input_domain(0, 1)
+  set_standard_analog_input_domain(1, 1)
+  set_tool_analog_input_domain(0, 1)
+  set_tool_analog_input_domain(1, 1)
+  set_analog_outputdomain(0, 0)
+  set_analog_outputdomain(1, 0)
+  set_input_actions_to_default()
+  global Waypoint_2_p=p[-.148946194610, -.526841252495, .268286275426, .004073099926, 3.098829730643, -.359243661633]
+  global Waypoint_2_q=[-1.6059190850619096, -1.8012145808073647, -1.9789702400253208, -0.7021962816471952, 1.6003787566274221, -0.029076540575804444]
+  global Waypoint_1_p=p[.252169037241, -.357631210124, .182144608764, .011188237763, 2.881982736658, -.964259969285]
+  global Waypoint_1_q=[-0.5326276492639064, -1.8247452810889904, -2.456436280001876, 0.021947859592262215, 1.082330198595379, 0.9311561383485865]
+  global Waypoint_3_p=p[.252169037238, -.357631210122, .672427942096, .004073100830, 3.098829737542, -.359243622967]
+  global Waypoint_3_q=[-0.6047657502898831, -1.4393970177965052, -1.252302698425317, -1.8699633706214627, 1.3939271691707464, 0.9552699776882737]
+  while (True):
+    $ 1 "Robot Program"
+    $ 2 "Loop"
+    while (True):
+      $ 3 "MoveJ"
+      $ 4 "Waypoint_2"
+      movej(get_inverse_kin(Waypoint_2_p, qnear=Waypoint_2_q), a=1.3962634015954636, v=1.0471975511965976)
+      $ 5 "MoveJ"
+      $ 6 "Waypoint_1"
+      movej(get_inverse_kin(Waypoint_1_p, qnear=Waypoint_1_q), a=1.3962634015954636, v=1.0471975511965976)
+      $ 7 "If read_port_register(7)≟7"
+      if ( read_port_register (7) == 7):
+        $ 8 "MoveJ"
+        $ 9 "Waypoint_3"
+        movej(get_inverse_kin(Waypoint_3_p, qnear=Waypoint_3_q), a=1.3962634015954636, v=1.0471975511965976)
+      end
+    end
+  end
+end
