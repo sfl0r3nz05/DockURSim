@@ -11,7 +11,7 @@ This is a suitable alternative to using the URSim virtual machine image on windo
 ## How to use
 
 1. Use this [link](./documentation/howtouse.md) to deploy URSIM based on docker.
-   - [Demonstration video](documentation/video-demonstration/2023-01-27-demo.mp4).
+   - [Demonstration video](https://youtu.be/oqDusRQvl6E).
 
 ## Operational limits
 
@@ -25,5 +25,9 @@ This is a suitable alternative to using the URSim virtual machine image on windo
 ## Digital Input Configurations
 
 1. Use this [link](./documentation/digitalinputconfig.md) to see the configurations of digital inputs.
+
+
+## To Do
+1. Create workflow for Github to build container (Gitlab pipeline is alredy prepared).
 
 >**All rights of the offline simulator application belong to [Universal Robots A/S](https://www.universal-robots.com).**
