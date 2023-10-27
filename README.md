@@ -26,8 +26,9 @@ This is a suitable alternative to using the URSim virtual machine image on windo
 
 1. Use this [link](./documentation/digitalinputconfig.md) to see the configurations of digital inputs.
 
-
 ## To Do
+
 1. Create workflow for Github to build container (Gitlab pipeline is alredy prepared).
+2. Create a robot cluster using K3s.
 
 >**All rights of the offline simulator application belong to [Universal Robots A/S](https://www.universal-robots.com).**
